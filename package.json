@@ -1,0 +1,25 @@
+{
+  "name": "design_with_tailwind",
+  "version": "1.0.0",
+  "description": "https://www.youtube.com/watch?v=21HuwjmuS7A&amp;list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belchiorjr/design_with_tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belchiorjr/design_with_tailwind/issues"
+  },
+  "homepage": "https://github.com/belchiorjr/design_with_tailwind#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}
