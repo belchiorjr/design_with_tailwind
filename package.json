@@ -4,7 +4,8 @@
   "description": "https://www.youtube.com/watch?v=21HuwjmuS7A&amp;list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR",
   "main": "index.js",
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch"
   },
   "repository": {
     "type": "git",
